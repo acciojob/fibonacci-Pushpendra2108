@@ -10,7 +10,7 @@ function fibonacci(num) {
             Series[index] = Series[index-1] + Series[index-2];
         }
     }
-    return Series;
+    return Series [num-1]; 
 }
 
 module.exports = fibonacci;
